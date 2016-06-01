@@ -193,7 +193,7 @@ AV.Cloud.afterSave("Payment", function(request, response) {
         },
         function(error)
         {
-          console.log(error.message);
+          console.log(error.message + 'Testing message');
         });
 
     }
